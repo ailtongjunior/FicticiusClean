@@ -6,6 +6,7 @@ Métodos: cadastraVeiculo, calculaGastos.
 
 Foi utilizado o banco de dados MySQL versão 8.0.23.
 Scripts para geração da estrutura no banco:
+
   CREATE USER 'FicticiusClean'@'%' IDENTIFIED BY 'FicticiusClean';
 
   GRANT ALL PRIVILEGES ON FicticiusClean.* TO FicticiusClean;
