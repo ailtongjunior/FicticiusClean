@@ -35,12 +35,12 @@ Exemplo de chamada para cadastrar um veículo:
   5) - Preencher os parâmetros conforme exemplo.
   
         {                                      
-        "Nome": "Nome do veículo" <!-- String -->,        
-        "Marca": "Marca do veículo" <!-- String -->,        
-        "Modelo": "Modelo do veículo" <!-- String -->,        
-        "DataFabricacao":"Data de fabricação do veículo no formato aaaa-MM-dd" <!-- Date -->,        
-        "ConsumoMedioCidade": Consumo médio de combustível dentro da cidade <!-- float -->,        
-        "ConsumoMedioRodovia": Consumo médio de combustível em rodovias <!-- float -->  
+        "Nome": "Nome do veículo"  \<!-- String -->,        
+        "Marca": "Marca do veículo"  \<!-- String -->,        
+        "Modelo": "Modelo do veículo"  \<!-- String -->,        
+        "DataFabricacao":"Data de fabricação do veículo no formato aaaa-MM-dd"  \<!-- Date -->,        
+        "ConsumoMedioCidade": Consumo médio de combustível dentro da cidade  \<!-- float -->,        
+        "ConsumoMedioRodovia": Consumo médio de combustível em rodovias  \<!-- float -->  
       }
       
       
@@ -49,11 +49,11 @@ Exemplo de chamada para calcular previsão de gastos.
   2) - Adicionar a URL: http://localhost:8080/FicticiusClean/webresources/FicticiusCleanWS/calculaGastos
   3) - Selecionar abaixo da URL a opção Body.
   4) - Selecionar a opção raw e escolher o formato JSON.
-  5) - Preencher os parâmetros conforme exemplo.  
+  5) - Preencher os parâmetros conforme exemplo.
         
         {         
-          "PrecoGas": Preço do combustível <!-- float -->,          
-          "KmCidade": Quantidade de quilômetros rodados na cidade <!-- float -->,           
-          "KmRodovia": Quantidade de quilômetros rodados em rodovias <!-- float -->           
+          "PrecoGas": Preço do combustível  \<!-- float -->,          
+          "KmCidade": Quantidade de quilômetros rodados na cidade  \<!-- float -->,           
+          "KmRodovia": Quantidade de quilômetros rodados em rodovias  \<!-- float -->           
       }
       
