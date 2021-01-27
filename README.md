@@ -21,6 +21,8 @@ Scripts para geração da estrutura no banco:
       ,PRIMARY KEY(idveiculos)
   );
 
+
+
 Para os testes foi utilizado o aplicativo Postman(https://www.postman.com/downloads/).    
 O envio e retorno das informações é no formato JSON.
 
