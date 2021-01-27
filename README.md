@@ -4,7 +4,23 @@ FicticiusClean - cadastro de veículos e previsão de gastos.
 
 Métodos: cadastraVeiculo, calculaGastos.
 
-Para os testes foi utilizado o aplicativo Postoman.
+Foi utilizado o banco de dados MySQL versão 8.0.23.
+Scripts para geração da estrutura no banco:
+  CREATE USER 'FicticiusClean'@'%' IDENTIFIED BY 'FicticiusClean';
+
+  GRANT ALL PRIVILEGES ON FicticiusClean.* TO FicticiusClean;
+
+  CREATE TABLE veiculos(idveiculos INT NOT NULL AUTO_INCREMENT
+    ,nome VARCHAR(50)
+      ,marca VARCHAR(50)
+      ,modelo VARCHAR(50)
+      ,datafabricacao DATETIME
+      ,ConsumoMedioCidade FLOAT
+      ,ConsumoMedioRodovia FLOAT
+      ,PRIMARY KEY(idveiculos)
+  );
+
+Para os testes foi utilizado o aplicativo Postman(https://www.postman.com/downloads/).
 O envio e retorno das informações é no formato JSON.
 
 Utilizando o Postman é possível consultar as instruções de utilização. 
