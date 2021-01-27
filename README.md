@@ -21,10 +21,10 @@ Scripts para geração da estrutura no banco:
       ,PRIMARY KEY(idveiculos)
   );
 
-Para os testes foi utilizado o aplicativo Postman(https://www.postman.com/downloads/).
+Para os testes foi utilizado o aplicativo Postman(https://www.postman.com/downloads/).    
 O envio e retorno das informações é no formato JSON.
 
-Utilizando o Postman é possível consultar as instruções de utilização. 
+Utilizando o Postman é possível consultar as instruções de utilização.    
 Para isso basta configurar a requisição como GET e adicionar a URL: http://localhost:8080/FicticiusClean/webresources/FicticiusCleanWS/
 
 Exemplo de chamada para cadastrar um veículo:
